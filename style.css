@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+}
+
+header {
+  background-color: #46AEB5;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
+  padding: 0 20px;
+}
+
+.logo img {
+  /*height: 200px;*/
+  max-width: 200px;
+  width: auto;
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.select select {
+  background-color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+}
+
+.select select:focus {
+  box-shadow: 0 0 3px #3498db;
+}
+
+.search-bar {
+  display: flex;
+  flex-direction: row;
+}
+
+.search-bar button {
+  background-color: white;
+  border: none;
+  border-radius: 3px;
+  height: 34px;
+  width: 34px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.search-bar button:hover {
+  background-color: #f5f5f5;
+}
+
+.search-bar img {
+  height: 16px;
+  width: auto;
+}
+
+.search-bar form {
+    display: flex;
+    flex-direction: row;
+  }
+
+.profile {
+  position: relative;
+}
+
+.profile button {
+  background-color: white;
+  border: none;
+  border-radius: 3px;
+  height: 34px;
+  width: 34px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.profile button:hover {
+  background-color: #f5f5f5;
+}
+
+.profile img {
+  height: 16px;
+  width: auto;
+}
+
+.burger-icon {
+  position: absolute;
+  top: 50%;
+  right: -8px;
+  transform: translateY(-50%);
+  height: 3px;
+  width: 20px;
+  background-color: white;
+  border-radius: 2px;
+}
+
+.profile-options {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  display: none;
+  padding: 10px;
+}
+
+.profile:hover .profile-options {
+  display: block;
+}
+
+.profile-options ul {
+  list-style-type: none;
+}
+
+.profile-options ul li {
+  margin-bottom: 5px;
+}
+
+.profile-options ul li a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.profile-options ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #187C83; 
+}
+
+p {
+  font-size: 24px;
+  margin-bottom: 50px;
+  color: #187C83; 
+}
